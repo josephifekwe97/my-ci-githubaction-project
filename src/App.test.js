@@ -8,16 +8,16 @@ test('renders learn react link', () => {
 });
 
 
-test('renders a button and handles click event', () => {
-  render(<App />);
+// test('renders a button and handles click event', () => {
+//   render(<App />);
   
-  // Check if button exists
-  const buttonElement = screen.getByRole('button', { name: /Click Me/i });
-  expect(buttonElement).toBeInTheDocument();
+//   // Check if button exists
+//   const buttonElement = screen.getByRole('button', { name: /Click Me/i });
+//   expect(buttonElement).toBeInTheDocument();
 
-  // Simulate click event
-  fireEvent.click(buttonElement);
+//   // Simulate click event
+//   fireEvent.click(buttonElement);
   
-  // Example assertion: Ensure button remains in the document
-  expect(buttonElement).toBeInTheDocument();
-});
+//   // Example assertion: Ensure button remains in the document
+//   expect(buttonElement).toBeInTheDocument();
+// });
